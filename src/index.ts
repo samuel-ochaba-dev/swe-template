@@ -1,9 +1,3 @@
-// src/index.ts
-
-const myName = 'samuel';
-
-function greet(name: string): string {
-  return `Hello, ${name}`;
+export function sum(a: number, b: number) {
+  return a + b;
 }
-
-console.log(greet(myName));

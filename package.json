@@ -11,10 +11,13 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
-    "env:check": "node -e \"require('dotenv-safe').config(); console.log('env ok')\""
+    "env:check": "node -e \"require('dotenv-safe').config(); console.log('env ok')\"",
+    "start:tcp": "ts-node src/tcp-server.ts",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx,json,md,css,scss}": [
+    "*.{ts,tsx,js,jsx,json,md,css,scss,yaml}": [
       "prettier --write"
     ],
     "*.{ts,js}": [
@@ -33,6 +36,7 @@
     "@commitlint/config-conventional": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^8.46.3",
     "@typescript-eslint/parser": "^8.46.3",
+    "@vitest/coverage-v8": "4.0.8",
     "dotenv-safe": "^9.1.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
@@ -40,7 +44,9 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.6",
     "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.3"
+    "typescript-eslint": "^8.46.3",
+    "vitest": "^4.0.8"
   }
 }
