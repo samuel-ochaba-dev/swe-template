@@ -6,3 +6,11 @@ node_modules
 
 # Logs
 *.log
+
+# Ignore auto-generated test coverage
+coverage/
+
+# Ignore package manager lockfiles (optional but good practice)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
