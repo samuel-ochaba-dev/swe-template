@@ -49,5 +49,10 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.3",
     "vitest": "^4.0.8"
+  },
+  "pnpm": {
+    "overrides": {
+      "rollup": "4.53.1"
+    }
   }
 }
