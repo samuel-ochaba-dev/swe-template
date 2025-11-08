@@ -5,6 +5,10 @@
       "0": {
         "start": { "line": 2, "column": 2 },
         "end": { "line": 2, "column": null }
+      },
+      "1": {
+        "start": { "line": 3, "column": 2 },
+        "end": { "line": 3, "column": null }
       }
     },
     "fnMap": {
@@ -16,20 +20,20 @@
         },
         "loc": {
           "start": { "line": 1, "column": 42 },
-          "end": { "line": 3, "column": null }
+          "end": { "line": 4, "column": null }
         },
         "line": 1
       }
     },
     "branchMap": {},
-    "s": { "0": 1 },
+    "s": { "0": 1, "1": 1 },
     "f": { "0": 1 },
     "b": {},
     "meta": {
       "lastBranch": 0,
       "lastFunction": 1,
-      "lastStatement": 1,
-      "seen": { "f:1:16:1:20": 0, "s:2:2:2:Infinity": 0 }
+      "lastStatement": 2,
+      "seen": { "f:1:16:1:20": 0, "s:2:2:2:Infinity": 0, "s:3:2:3:Infinity": 1 }
     }
   }
 }
