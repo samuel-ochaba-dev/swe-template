@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762590520753" clover="3.2.0">
-  <project timestamp="1762590520753" name="All files">
+<coverage generated="1762592638098" clover="3.2.0">
+  <project timestamp="1762592638098" name="All files">
     <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="/Users/obande/Desktop/Deep_work_to_software_engineer/swe_template/src/index.ts">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
